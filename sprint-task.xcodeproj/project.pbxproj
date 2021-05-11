@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		601CEA402642B07000B37323 /* GoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601CEA3F2642B07000B37323 /* GoalViewController.swift */; };
+		605E21D826416E5A00737A4C /* AfterTimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605E21D726416E5A00737A4C /* AfterTimerViewController.swift */; };
+		605E21DC264184ED00737A4C /* mixkit-alarm-digital-clock-beep-989.wav in Resources */ = {isa = PBXBuildFile; fileRef = 605E21DB264184ED00737A4C /* mixkit-alarm-digital-clock-beep-989.wav */; };
+		605E21E126418DC100737A4C /* SprintTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605E21E026418DC100737A4C /* SprintTimer.swift */; };
+		60934718264396780050F17D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60934717264396780050F17D /* HomeViewController.swift */; };
+		60949EA92642E23700BB9C52 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60949EA82642E23700BB9C52 /* SettingViewController.swift */; };
 		60970785264040EA0029B882 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60970784264040EA0029B882 /* AppDelegate.swift */; };
 		60970787264040EA0029B882 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60970786264040EA0029B882 /* SceneDelegate.swift */; };
 		60970789264040EA0029B882 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60970788264040EA0029B882 /* ViewController.swift */; };
@@ -16,6 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		601CEA3F2642B07000B37323 /* GoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalViewController.swift; sourceTree = "<group>"; };
+		605E21D726416E5A00737A4C /* AfterTimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfterTimerViewController.swift; sourceTree = "<group>"; };
+		605E21DB264184ED00737A4C /* mixkit-alarm-digital-clock-beep-989.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "mixkit-alarm-digital-clock-beep-989.wav"; path = "../../../Downloads/mixkit-alarm-digital-clock-beep-989.wav"; sourceTree = "<group>"; };
+		605E21E026418DC100737A4C /* SprintTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprintTimer.swift; sourceTree = "<group>"; };
+		60934717264396780050F17D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		60949EA82642E23700BB9C52 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		60970781264040EA0029B882 /* sprint-task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sprint-task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		60970784264040EA0029B882 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60970786264040EA0029B882 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +49,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		605E21DA264184C100737A4C /* Sound effect */ = {
+			isa = PBXGroup;
+			children = (
+				605E21DB264184ED00737A4C /* mixkit-alarm-digital-clock-beep-989.wav */,
+			);
+			path = "Sound effect";
+			sourceTree = "<group>";
+		};
+		605E21DF26418D7000737A4C /* Timer Model */ = {
+			isa = PBXGroup;
+			children = (
+				605E21E026418DC100737A4C /* SprintTimer.swift */,
+			);
+			path = "Timer Model";
+			sourceTree = "<group>";
+		};
 		60970778264040EA0029B882 = {
 			isa = PBXGroup;
 			children = (
@@ -56,10 +84,16 @@
 		60970783264040EA0029B882 /* sprint-task */ = {
 			isa = PBXGroup;
 			children = (
+				605E21DF26418D7000737A4C /* Timer Model */,
+				605E21DA264184C100737A4C /* Sound effect */,
 				60970784264040EA0029B882 /* AppDelegate.swift */,
 				60970786264040EA0029B882 /* SceneDelegate.swift */,
+				60934717264396780050F17D /* HomeViewController.swift */,
 				60970788264040EA0029B882 /* ViewController.swift */,
 				6097078A264040EA0029B882 /* Main.storyboard */,
+				60949EA82642E23700BB9C52 /* SettingViewController.swift */,
+				605E21D726416E5A00737A4C /* AfterTimerViewController.swift */,
+				601CEA3F2642B07000B37323 /* GoalViewController.swift */,
 				6097078D264040EB0029B882 /* Assets.xcassets */,
 				6097078F264040EB0029B882 /* LaunchScreen.storyboard */,
 				60970792264040EB0029B882 /* Info.plist */,
@@ -127,6 +161,7 @@
 				60970791264040EB0029B882 /* LaunchScreen.storyboard in Resources */,
 				6097078E264040EB0029B882 /* Assets.xcassets in Resources */,
 				6097078C264040EA0029B882 /* Main.storyboard in Resources */,
+				605E21DC264184ED00737A4C /* mixkit-alarm-digital-clock-beep-989.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +174,12 @@
 			files = (
 				60970789264040EA0029B882 /* ViewController.swift in Sources */,
 				60970785264040EA0029B882 /* AppDelegate.swift in Sources */,
+				605E21E126418DC100737A4C /* SprintTimer.swift in Sources */,
+				60934718264396780050F17D /* HomeViewController.swift in Sources */,
+				601CEA402642B07000B37323 /* GoalViewController.swift in Sources */,
 				60970787264040EA0029B882 /* SceneDelegate.swift in Sources */,
+				60949EA92642E23700BB9C52 /* SettingViewController.swift in Sources */,
+				605E21D826416E5A00737A4C /* AfterTimerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
